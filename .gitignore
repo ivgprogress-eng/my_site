@@ -1,0 +1,12 @@
+# system
+.DS_Store
+Thumbs.db
+
+# editors/IDE
+.vscode/
+*.code-workspace
+
+# future (если появится Node.js)
+node_modules/
+dist/
+build/
