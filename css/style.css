@@ -1,3 +1,29 @@
 body {
-  background-color: red;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: darkblue;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
 }
