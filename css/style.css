@@ -27,3 +27,22 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+.cards {
+  display: flex;             /* включаем flex-контейнер */
+  gap: 20px;                 /* расстояние между карточками */
+  margin: 20px 0;
+}
+
+.card {
+  flex: 1;                   /* все карточки равной ширины */
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* лёгкая тень */
+}
+
+.card h3 {
+  margin-top: 0;
+  color: darkgreen;
+}
